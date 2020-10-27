@@ -1,0 +1,60 @@
+/*
+
+All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 77). 
+        
+The 'supports' rule will only run if your browser supports CSS grid.
+
+Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.
+
+*/
+
+.cards-container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+  margin-top: 10rem;
+}
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+}
+.card {
+  /*Minimum width of 24rem and grow to fit available space*/
+  flex: 1 0 1rem;
+  /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.card-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+.card-image:hover {
+  transform: scale(1.15);
+}
+@supports (display: grid) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-gap: 2rem;
+  }
+  .card-grid,
+  .card {
+    margin: 0;
+  }
+}
+@media only screen and (max-device-width: 330px) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+  }
+}

@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+
+/* MODAL */
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #161616;
+    color: white;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: #333333;
+}
+.close-button:hover {
+    background-color: #444444;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media only screen and (max-device-width: 400px){
+    .modal-content{
+        width: 90%;
+        font-size: 12px;
+    }
+}
+/* HEADER */
+
+.header{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: #202020;
+    color: white;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .title{
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Monserrat';
+    font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.scoreboard{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 1.3rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.score{
+    color: rgb(75, 75, 209);
 }
-
-.App-link {
-  color: #61dafb;
+.highscore{
+    color: rgb(221, 37, 37);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-device-width: 330px) {
+    .header .title{
+        font-size: 27px;
+    }
+    .scoreboard{
+        font-size: 1rem;
+    }
 }
