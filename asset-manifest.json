@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/memory-cards/static/css/main.bd09efcc.chunk.css",
+    "main.js": "/memory-cards/static/js/main.0a86718a.chunk.js",
+    "main.js.map": "/memory-cards/static/js/main.0a86718a.chunk.js.map",
+    "runtime-main.js": "/memory-cards/static/js/runtime-main.f11c9210.js",
+    "runtime-main.js.map": "/memory-cards/static/js/runtime-main.f11c9210.js.map",
+    "static/js/2.2b6361ef.chunk.js": "/memory-cards/static/js/2.2b6361ef.chunk.js",
+    "static/js/2.2b6361ef.chunk.js.map": "/memory-cards/static/js/2.2b6361ef.chunk.js.map",
+    "index.html": "/memory-cards/index.html",
+    "static/css/main.bd09efcc.chunk.css.map": "/memory-cards/static/css/main.bd09efcc.chunk.css.map",
+    "static/js/2.2b6361ef.chunk.js.LICENSE.txt": "/memory-cards/static/js/2.2b6361ef.chunk.js.LICENSE.txt",
+    "static/media/1.a0ed6bb3.jpg": "/memory-cards/static/media/1.a0ed6bb3.jpg",
+    "static/media/10.d6aa874e.png": "/memory-cards/static/media/10.d6aa874e.png",
+    "static/media/11.86f965ed.png": "/memory-cards/static/media/11.86f965ed.png",
+    "static/media/12.b84f5f7b.png": "/memory-cards/static/media/12.b84f5f7b.png",
+    "static/media/13.52dc5a5a.png": "/memory-cards/static/media/13.52dc5a5a.png",
+    "static/media/14.8b8cf36e.png": "/memory-cards/static/media/14.8b8cf36e.png",
+    "static/media/15.3eecdce9.png": "/memory-cards/static/media/15.3eecdce9.png",
+    "static/media/16.9b20397a.png": "/memory-cards/static/media/16.9b20397a.png",
+    "static/media/17.acf433e7.png": "/memory-cards/static/media/17.acf433e7.png",
+    "static/media/18.a357fa16.png": "/memory-cards/static/media/18.a357fa16.png",
+    "static/media/19.80a3ac88.png": "/memory-cards/static/media/19.80a3ac88.png",
+    "static/media/2.9e7b6f57.png": "/memory-cards/static/media/2.9e7b6f57.png",
+    "static/media/20.1accb476.jpg": "/memory-cards/static/media/20.1accb476.jpg",
+    "static/media/3.e6992a11.png": "/memory-cards/static/media/3.e6992a11.png",
+    "static/media/4.e40662ad.jpg": "/memory-cards/static/media/4.e40662ad.jpg",
+    "static/media/5.15322f8b.png": "/memory-cards/static/media/5.15322f8b.png",
+    "static/media/6.3e3fdc62.png": "/memory-cards/static/media/6.3e3fdc62.png",
+    "static/media/7.5097e454.jpg": "/memory-cards/static/media/7.5097e454.jpg",
+    "static/media/8.4a5be594.png": "/memory-cards/static/media/8.4a5be594.png",
+    "static/media/9.5fa6fa04.png": "/memory-cards/static/media/9.5fa6fa04.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f11c9210.js",
+    "static/js/2.2b6361ef.chunk.js",
+    "static/css/main.bd09efcc.chunk.css",
+    "static/js/main.0a86718a.chunk.js"
+  ]
+}
